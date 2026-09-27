@@ -1,0 +1,8 @@
+[
+  { "policyNo": "HDFC-LIFE-1001", "customer": "Anita Sharma", "type": "TERM", "basePremium": 18500, "status": "Active" },
+  { "policyNo": "HDFC-LIFE-1002", "customer": "Rahul Mehta", "type": "ULIP", "basePremium": 42000, "status": "Active" },
+  { "policyNo": "HDFC-LIFE-1003", "customer": "Priya Nair", "type": "ENDOWMENT", "basePremium": 27000, "status": "Lapsed" },
+  { "policyNo": "HDFC-LIFE-1004", "customer": "Vikram Singh", "type": "TERM", "basePremium": 15200, "status": "Active" },
+  { "policyNo": "HDFC-LIFE-1005", "customer": "Sneha Patel", "type": "ULIP", "basePremium": 36000, "status": "Active" },
+  { "policyNo": "HDFC-LIFE-1006", "customer": "Anita Sharma", "type": "ENDOWMENT", "basePremium": 22000, "status": "Pending" }
+]

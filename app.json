@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "HDFC Life Advisor",
+    "slug": "hdfc-life-advisor-rn",
+    "scheme": "hdfclife",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hdfclife.advisor",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to photograph hospital bills for claims.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to attach hospital bill images.",
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to show your position relative to HDFC Life branches."
+      }
+    },
+    "android": {
+      "package": "com.hdfclife.advisor",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#004C8C"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED",
+        "SCHEDULE_EXACT_ALARM"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "This app needs access to your photos to attach hospital bill images.",
+          "cameraPermission": "This app needs access to your camera to photograph hospital bills."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "This app uses your location to show your position relative to HDFC Life branches."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#004C8C"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {}
+    }
+  }
+}
